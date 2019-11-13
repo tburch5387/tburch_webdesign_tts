@@ -1,3 +1,43 @@
-ul {
-	list-style: none;
+body {
+	font-family: arial, sans serif;
 }
+
+ul {
+	list-style: disc;
+}
+
+
+
+/*@keyframes fadeMe{
+ from {
+   opacity: 1;
+ }
+ to {
+   opacity: 0;*/
+ }
+}
+h1 {
+	color: green;
+    background-color: purple;
+    /*animation: fadeMe 4s color ease-in;
+    -webkit-animation: fadeMe 4s color ease-in;
+    -moz-animation: fadeMe 4s color ease-in;
+    -ms-animation: fadeMe 4s color ease-in;
+    -o-animation: fadeMe 4s color ease-in;*/
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+h1:hover {
+    background-color: green;
+    color: purple;
+   /* -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;*/
+}
+
