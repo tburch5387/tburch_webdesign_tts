@@ -1,0 +1,46 @@
+ul {
+	list-style: none;
+	font-size: 36px;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+li {
+	display: inline-block;
+	width: 18%;
+}
+
+li:hover {
+	text-shadow: 3px 1px 2px black inset;
+}
+
+#dropper {
+	display: none;
+	position: absolute;
+	color:#90dff4;
+	left:71%;
+	top: 80%;
+	width: 20%;
+}
+
+#dropper li {
+	width: 200%;
+	text-align: left;
+}
+
+#dropHov:hover #dropper {
+	display: block;
+}
+
+nav {
+	background-color: #90dff4;
+	position: relative;
+	box-shadow: 0px 1px 10px rgba(0,0,0,.6);
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+}
