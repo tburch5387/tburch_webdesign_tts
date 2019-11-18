@@ -1,0 +1,110 @@
+
+
+#logo {
+	font-family: 'Permanent Marker', cursive;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+body {
+	font-family: 'Amatic SC', serif;
+	font-size: 20px;
+	position: relative;
+	min-height: 100vh;	
+}
+
+nav {
+	font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #333;
+	color: #f1cdf7;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0px;
+}
+
+nav li {
+	list-style-type: none;
+	display: flex;
+	padding: 0 2vw;
+}
+
+nav a, nav span {
+	text-decoration: none;
+	color: #f1cdf7;
+}
+
+nav a:hover {
+	color: #b53bf7;
+	font-size: 30px;
+	transition: font-size 1s, color .5s;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+}
+
+.primaryContent {
+	padding: 0 50px;
+
+}
+
+.picWrapper {
+	text-align: center;
+}
+
+img#feature{
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+}
+
+nav.footNav{
+	display: block;
+	text-align: center;
+}
+
+div.footNav {
+	padding-right: 2vw;
+}
+
+/*contact styles*/
+
+main.contact {
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+.contact fieldset {
+	border: 1px dashed #b53bf7;
+	max-width: 400px;
+}
+
+input, textarea {
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-width: 400px;
+	outline: none;
+	border: 1px solid #f1cdf7;
+	box-shadow: 1px 1px 1px #b53bf7;
+}
+#fullWrap {
+	padding-bottom: 48px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 48px;
+}

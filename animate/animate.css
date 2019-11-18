@@ -1,0 +1,12 @@
+@keyframes example1 {
+	from {background-color: purple;}
+	to {background-color: rgba(,34,67,200,0);}
+}
+
+#example1 {
+	width: 200px;
+	height: 200px;
+	/*animation: name duration transition delay iteration direction; */
+	animation: example1 6s ease-out 2s infinite alternate-reverse;
+}
+
