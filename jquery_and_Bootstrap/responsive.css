@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	position: relative;
+}
+
+
+
+.boxes {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	height: 200px;
+	box-sizing: border-box;
+	border: 5px solid white;
+	background-color: #333;
+	float:left;
+}
+
+@media only screen and (min-width: 768px) {
+	.boxes {width: 33.33%;
+
+
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.boxes {width: 16.6%;
+
+
+	}
+}
